@@ -10,6 +10,7 @@ html {
 body{
 	/*width: 960px;*/
 }
+
 div{
 	padding: 0px;
 	margin-bottom: 5px;
@@ -19,6 +20,7 @@ hr{
 	margin: 0;
 }
 
+/* Title */
 h1{
 	font-size: 24px;
 	margin-top: 20px;
@@ -36,6 +38,7 @@ h3{
 	margin: 0;
 	line-height: 1.5;
 }
+
 div.feature-article a{
 	text-decoration: none;
 }
@@ -46,6 +49,8 @@ h4{
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* more... */
 .ellipsis {
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -67,6 +72,7 @@ h4{
 
 }
 
+/* header */
 .header{
 	padding: 0px;
 	margin: 0;
@@ -79,6 +85,7 @@ h4{
 	color: #fff;
 }
 
+/* featured */
 .col-md-3{
   padding: 5px;
 }
@@ -103,6 +110,8 @@ h4{
 	margin: 10px 0 10px 10px;
 	overflow: hidden;
 }
+
+
 
 .feature-video {
   display: block;
@@ -132,15 +141,12 @@ div.feature-article{
     border-bottom: 1px solid #ddd;
 }
 
-
-
 div.feature-article li {
   display: block;
   padding: 5px 0px;
   position: relative;
   overflow: hidden;
 }
-
 
 div.feature-article li a.fig {
   display: block;
@@ -151,6 +157,7 @@ div.feature-article li a.fig {
   float: left;
 }
 
+/* side video v1 */
 div.side-video-list{
   list-style: none;
   clear: left;
@@ -186,8 +193,16 @@ ul{
 
 }
 
+/* side video v2 (index2.html) */
 
+.feature-right-col a>img, .feature-right-col>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
 
+/* sections */
 .box {
   display: block;
   padding: 5px;
