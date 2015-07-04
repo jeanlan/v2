@@ -1,0 +1,244 @@
+# Empty CSS file for your own CSS
+@charset "UTF-8";
+
+html {
+  font-family: 'LiHei Pro', '微軟正黑體', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+	/*width: 960px;*/
+}
+div{
+	padding: 0px;
+	margin-bottom: 5px;
+}
+hr{
+	border-color: #ddd;
+	margin: 0;
+}
+
+h1{
+	font-size: 24px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2{
+	font-size: 20px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+	font-size: 18px;
+	color: #ff9900;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+div.feature-article a{
+	text-decoration: none;
+}
+h4{
+	font-size: 20px;
+	color: #ff9900;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.ellipsis.multiline {
+	white-space: normal;
+}
+
+.ellipsis-list li{
+  list-style-position: inside;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 -10px 0 -20px;
+  font-size: 10pt;
+  line-height: 2;
+
+}
+
+.header{
+	padding: 0px;
+	margin: 0;
+}
+#nav{
+	background-color: #ccc;
+	padding: 5px 0;
+}
+.header.col-md-6{
+	color: #fff;
+}
+
+.col-md-3{
+  padding: 5px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 10px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.feature-left-col{
+	float: left;
+	max-width: 620px;
+	margin: 10px;
+}
+
+.feature-right-col{
+	float: left;
+	position: relative;
+	max-width: 320px; 
+	margin: 10px 0 10px 10px;
+	overflow: hidden;
+}
+
+.feature-video {
+  display: block;
+  padding: 0px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  background-color: #fff;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.feature-video a>img, .feature-video>img, .feature-video>iframe{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+div.feature-article{
+	background-color: #fffbd3;
+	padding: 5px;
+    list-style: none;
+    clear: left;
+    position: relative;
+    top: -1px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+div.feature-article li {
+  display: block;
+  padding: 5px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+div.feature-article li a.fig {
+  display: block;
+  height: 130px;
+  width: 230px;
+  margin: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+div.side-video-list{
+  list-style: none;
+  clear: left;
+  position: relative;
+  top: -1px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+div.side-video-list li {
+  display: block;
+  height: 130px;
+  padding: 15px 0px 15px 0;
+  border-top: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+div.side-video-list li a.fig {
+  display: block;
+  height: 100px;
+  width: 180px;
+  margin-right: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+  display: block;
+  list-style-type: disc;
+
+}
+
+
+
+.box {
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.box>img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.box a>img, .box>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.box .caption {
+  padding: 5px;
+  color: #333;
+}
+div.box ul {
+	padding: 0 0 15px 18px;
+}
+div.box ul a{
+	color: #333;
+	text-decoration: underline;
+}
+
+      div.a div.resize {
+        width: 20%;
+        height: 10px;
+      }
+
+#more{
+  background-color: #eee;
+  padding: 5px;
+  line-height: 2;
+}
+#more ul{
+  list-style: none;
+}
+#footer{
+  padding: 10px 5px 5px 5px;
+  background-color: #583100;
+  border-top: 1px solid #331e05;
+  color: #fff;
+}
